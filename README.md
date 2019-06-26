@@ -33,7 +33,7 @@ var navProps = {
       }
     },
     "Shop": {
-      onClick: function(){ alert("hey"); },
+      onClick: function(){ alert("Shop"); },
       subItems: {
         "More Info" : {
           link: "http://google.com",
