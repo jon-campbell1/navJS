@@ -6,7 +6,7 @@ You may render a navigation bar at the top of your webpage using the example bel
 
 
 
-var navProps = {
+var navProps = { \n
   title: "My Nav Bar",
   responseWidth: 600,
   menuItems: {
