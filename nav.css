@@ -1,0 +1,156 @@
+.navContainer {
+  position:fixed; top:0px; left:0px;
+  width:100%;
+  height:50px;
+  background:black;
+  color:white;
+  font-family:arial;
+}
+
+.navTitle {
+  float:left;
+  margin-left: 50px;
+  padding-top: 2px;
+  font-weight: normal;
+  font-size: 14pt;
+}
+
+.navButton{
+  float:left;
+  border:1px solid white;
+  height:32px;
+  width:45px;
+  padding:0px;
+  background: black;
+  border-radius:6px;
+  margin-top:10px;
+  cursor:pointer;
+  display:none;
+}
+
+.navButton:hover {
+  background-color: #333333;
+}
+
+.iconBar {
+  background:white;
+  width: 27px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 8px;
+  position:relative;top:-3px; left:0px;
+}
+
+.menuContainer {
+  float:right;
+  margin-right:50px;
+}
+
+.menuList {
+  padding:0px;
+  margin:0px;
+  list-style-type:none;
+}
+
+.mobileMenuItemContainer {
+  height: 0px;
+  border-bottom: 1px solid #666666;
+  position:relative;
+  overflow: hidden;
+}
+
+.mobileMenuItem {
+  width:100%;
+  background:#222222;
+  clear:both;
+  height:50px;
+  color: #BBBBBB;
+  box-sizing:border-box;
+  font-size: 12pt;
+  border-top: 1px solid #666666;
+  cursor: pointer;
+  padding: 15px 0px 0px 50px;
+}
+
+.mobileSubItem {
+  width:100%;
+  background:black;
+  font-weight:bold;
+  clear:both;
+  height:37px;
+  box-sizing:border-box;
+  display: none;
+  color: #BBBBBB;
+  font-size: 10pt;
+  border-top: 1px solid #666666;
+  cursor: pointer;
+  padding: 10px 0px 0px 75px;
+}
+
+.mobileMenuItem:hover, .mobileSubItem:hover, .menuItem:hover{
+  background: #333333;
+}
+
+.menuItem {
+  float: left;
+  min-width: 100px;
+  position: relative;
+  text-align: center;
+  color: #BBBBBB;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 16px 5px 0px 5px;
+  font-size: 12pt;
+  cursor:pointer;
+  display: inline-block;
+}
+
+.subItems {
+  display:none;
+  position: absolute; top:65px; left:0px;
+  background: #555555;
+  width:120px;
+  box-sizing: border-box;
+}
+
+.innerSubItem {
+  text-align:left;
+  color: #BBBBBB;
+  font-size: 10pt;
+  font-weight:bold;
+  padding:10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.innerSubItem:hover {
+  background: #444444;
+}
+
+.arrowUp {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 20px solid #555555;
+  position:absolute; top: -20px; left:15px;
+}
+.arrowDown {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid #BBBBBB;
+  position:relative; top:3px; margin-right:6px;
+  float:left;
+}
+
+.arrowSide{
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 10px solid #BBBBBB;
+  position:relative; top:0px; margin-right:6px;
+  float:left;
+}

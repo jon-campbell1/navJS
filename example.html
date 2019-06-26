@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link rel="stylesheet" href="nav.css"/>
+  <script src="nav.js"></script>
+</head>
+<body>
+</body>
+
+<script type="text/javascript">
+
+var navProps = {
+  title: "My Nav Bar",
+  responseWidth: 600,
+  menuItems: {
+    "Home": {
+      subItems: {
+        "More Info" : {
+          onClick: function(){alert("More Info");}
+        },
+        "Email" : {
+          onClick: function(){alert("Email");}
+        }
+      }
+    },
+    "Contact": {
+      onClick: function(){ },
+      subItems: {
+        "More Info" : {
+          link: "http://google.com",
+          onClick: function(){alert("More Info");}
+        },
+        "Email" : {
+          onClick: function(){alert("Email");}
+        }
+      }
+    },
+    "Shop": {
+      onClick: function(){ alert("hey"); },
+      subItems: {
+        "More Info" : {
+          link: "http://google.com",
+          onClick: function(){alert("More Info");}
+        },
+        "Email" : {
+          onClick: function(){alert("Email");}
+        }
+      }
+    }
+  }
+}
+
+var myNav = new EzNav(navProps);
+
+</script>
+
+</html>
